@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+__pycache__/
+.venv/
+data/evidence.json
+data/*.sqlite3*

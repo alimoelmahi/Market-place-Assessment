@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-27T12:56:45.3580540+00:00",
+  "input_asset_checksums_verified": 14,
+  "acquisition_attempts": 25,
+  "wfp_sudan_source_rows": 22698,
+  "wfp_khartoum_source_rows": 1127,
+  "wfp_khartoum_series": 17,
+  "wfp_selected_market_matches_established": 0,
+  "series_with_eligible_latest_12_month_volatility": 3,
+  "khartoum_admin2_features": 7,
+  "population_reference_date_conflict": true,
+  "indicator_evidence_rows": 42,
+  "selected_market_measurements_established": 0,
+  "ranking_enabled": false,
+  "methods": "Exact-label source filtering, direct nominal matched price arithmetic, source administrative extraction; no imputation, unit conversion, fuzzy site matching, population redistribution or scoring."
+}

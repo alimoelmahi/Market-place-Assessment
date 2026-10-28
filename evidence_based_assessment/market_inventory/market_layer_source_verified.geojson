@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "KHM004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4830627,
+          15.4678125
+        ]
+      },
+      "properties": {
+        "market_id": "KHM004",
+        "arabic_name": "سوق الكلاكلة اللفة الخرطوم",
+        "english_transliteration": "Suq al-Kalakla al-Laffa",
+        "concept_note_paragraph": "23",
+        "concept_note_source_file": "UNDP_Market_Assessment_Concept_Note_AR.docx",
+        "concept_note_sha256": "3dc7c918d2f3bd1ca07486cf9b6a965478c51b1f896683937f4e8aa852cd5901",
+        "source_locality_label": "Source label Khartoum; formal locality unverified",
+        "locality": "Jebel Awlia",
+        "locality_pcode": "SD01001",
+        "locality_method": "Full source geometry contained in one acquired COD v03 locality; not a legal determination",
+        "administrative_area": "Khartoum State",
+        "country": "Sudan",
+        "sublocality_administrative_unit": "",
+        "sublocality_status": "Not established in reviewed evidence",
+        "latitude": 15.4678125,
+        "longitude": 32.4830627,
+        "crs": "EPSG:4326; longitude,latitude in GeoJSON",
+        "coordinate_status": "source_verified_osm_node_not_independently_position_verified",
+        "coordinates_unvalidated_flag": false,
+        "independent_positional_validation": "not_established",
+        "geometry_status": "source_verified_market_point",
+        "osm_availability": "named_market_feature_source_verified",
+        "osm_object": "node/7066645104",
+        "osm_candidate_objects": "node/7066645104",
+        "osm_name": "سوق الكلاكلة اللفة",
+        "osm_version": 1,
+        "osm_last_edit": "2019-12-18T14:47:40Z",
+        "osm_edit_date_is_observation_date": false,
+        "location_observation_date": "Not established; edit and retrieval times are not site-observation dates",
+        "data_source": "Original Arabic concept note; source paragraph and prior XML audit; recorded OSM discovery responses; actual OSM object API",
+        "coordinate_source_url": "https://api.openstreetmap.org/api/0.6/nodes.json?nodes=4548460093,5320410421,7066645104,8006740507",
+        "coordinate_source_sha256": "c32898464e7346b6dac79a6c816164d4dbf2fe233cd5ec9b48a008add72dbe7f",
+        "osm_url": "https://www.openstreetmap.org/node/7066645104",
+        "corroborating_publication_urls": "",
+        "supplied_assessment_context": false,
+        "confidence_level": "Moderate for matched source feature only; independent positional confidence unassessed",
+        "source_name_interpretation_confidence": "High name interpretation; administration unverified",
+        "coordinate_precision": "Exact source digits retained; no survey accuracy inferred",
+        "entrance_verified": false,
+        "routing_eligible": false,
+        "current_operation_verified": false,
+        "authoritative_release_approved": false,
+        "publication_clearance": "Internal working inventory; confidential concept-note scope requires clearance",
+        "ambiguity_notes": "Place label alone does not establish Khartoum Locality or administrative unit",
+        "validation_notes": "Exact distinctive market name and marketplace tag; actual OSM node coordinates checked against source API. Source-verified inventory point only, not a surveyed position, market entrance or current operation finding.",
+        "review_date": "2026-10-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KHM009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4233257,
+          15.6478994
+        ]
+      },
+      "properties": {
+        "market_id": "KHM009",
+        "arabic_name": "أم درمان سوق ليبيا",
+        "english_transliteration": "Suq Libya Umm Durman",
+        "concept_note_paragraph": "28",
+        "concept_note_source_file": "UNDP_Market_Assessment_Concept_Note_AR.docx",
+        "concept_note_sha256": "3dc7c918d2f3bd1ca07486cf9b6a965478c51b1f896683937f4e8aa852cd5901",
+        "source_locality_label": "Source label Omdurman; formal locality unverified",
+        "locality": "Um Bada",
+        "locality_pcode": "SD01002",
+        "locality_method": "Full source geometry contained in one acquired COD v03 locality; not a legal determination",
+        "administrative_area": "Khartoum State",
+        "country": "Sudan",
+        "sublocality_administrative_unit": "",
+        "sublocality_status": "Not established in reviewed evidence",
+        "latitude": 15.6478994,
+        "longitude": 32.4233257,
+        "crs": "EPSG:4326; longitude,latitude in GeoJSON",
+        "coordinate_status": "source_verified_osm_node_not_independently_position_verified",
+        "coordinates_unvalidated_flag": false,
+        "independent_positional_validation": "not_established",
+        "geometry_status": "source_verified_market_point",
+        "osm_availability": "named_market_feature_source_verified",
+        "osm_object": "node/5320410421",
+        "osm_candidate_objects": "node/5320410421",
+        "osm_name": "سوق ليبيا",
+        "osm_version": 2,
+        "osm_last_edit": "2019-11-01T09:04:41Z",
+        "osm_edit_date_is_observation_date": false,
+        "location_observation_date": "Not established; edit and retrieval times are not site-observation dates",
+        "data_source": "Original Arabic concept note; source paragraph and prior XML audit; recorded OSM discovery responses; actual OSM object API",
+        "coordinate_source_url": "https://api.openstreetmap.org/api/0.6/nodes.json?nodes=4548460093,5320410421,7066645104,8006740507",
+        "coordinate_source_sha256": "c32898464e7346b6dac79a6c816164d4dbf2fe233cd5ec9b48a008add72dbe7f",
+        "osm_url": "https://www.openstreetmap.org/node/5320410421",
+        "corroborating_publication_urls": "https://www.dabangasudan.org/en/all-news/article/libya-market-plundered-police-remain-absent-in-sudan-capital",
+        "supplied_assessment_context": false,
+        "confidence_level": "Moderate for matched source feature only; independent positional confidence unassessed",
+        "source_name_interpretation_confidence": "High name interpretation; administration unverified",
+        "coordinate_precision": "Exact source digits retained; no survey accuracy inferred",
+        "entrance_verified": false,
+        "routing_eligible": false,
+        "current_operation_verified": false,
+        "authoritative_release_approved": false,
+        "publication_clearance": "Internal working inventory; confidential concept-note scope requires clearance",
+        "ambiguity_notes": "Wider Omdurman label must not be treated as a verified formal locality",
+        "validation_notes": "Arabic market name and English alias agree with concept entry; actual marketplace node coordinates checked against source API. Dabanga corroborates the market in western Omdurman, not the precise point. Not an entrance or current-status finding.",
+        "review_date": "2026-10-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KHM013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5915391,
+              15.6188297
+            ],
+            [
+              32.5911781,
+              15.6191706
+            ],
+            [
+              32.5909056,
+              15.6193444
+            ],
+            [
+              32.5907074,
+              15.6194466
+            ],
+            [
+              32.5902686,
+              15.6194535
+            ],
+            [
+              32.5899819,
+              15.6194569
+            ],
+            [
+              32.588453,
+              15.6193785
+            ],
+            [
+              32.5884565,
+              15.6184445
+            ],
+            [
+              32.5879185,
+              15.6183764
+            ],
+            [
+              32.5878973,
+              15.6179673
+            ],
+            [
+              32.5875044,
+              15.6177833
+            ],
+            [
+              32.5878831,
+              15.617013
+            ],
+            [
+              32.5897731,
+              15.6178685
+            ],
+            [
+              32.5902544,
+              15.618056
+            ],
+            [
+              32.5908419,
+              15.6168868
+            ],
+            [
+              32.5919603,
+              15.6172277
+            ],
+            [
+              32.5913551,
+              15.6186456
+            ],
+            [
+              32.5915391,
+              15.6188297
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "market_id": "KHM013",
+        "arabic_name": "الحلة كوكو (الخرطوم بحري)",
+        "english_transliteration": "Al-Hilla Kuku; working alias Hilat Kuku",
+        "concept_note_paragraph": "37",
+        "concept_note_source_file": "UNDP_Market_Assessment_Concept_Note_AR.docx",
+        "concept_note_sha256": "3dc7c918d2f3bd1ca07486cf9b6a965478c51b1f896683937f4e8aa852cd5901",
+        "source_locality_label": "Unresolved: concept labels Bahri; benchmark context Sharg El Neel",
+        "locality": "Sharg An Neel",
+        "locality_pcode": "SD01004",
+        "locality_method": "Full source geometry contained in one acquired COD v03 locality; not a legal determination",
+        "administrative_area": "Khartoum State",
+        "country": "Sudan",
+        "sublocality_administrative_unit": "",
+        "sublocality_status": "Not established in reviewed evidence",
+        "latitude": "",
+        "longitude": "",
+        "crs": "EPSG:4326; longitude,latitude in GeoJSON",
+        "coordinate_status": "market_polygon_available_no_validated_point_or_entrance",
+        "coordinates_unvalidated_flag": true,
+        "independent_positional_validation": "not_established",
+        "geometry_status": "source_verified_market_polygon",
+        "osm_availability": "named_market_feature_source_verified",
+        "osm_object": "way/1359632096",
+        "osm_candidate_objects": "way/1359632096",
+        "osm_name": "سوق حلة كوكو",
+        "osm_version": 1,
+        "osm_last_edit": "2025-02-13T15:05:23Z",
+        "osm_edit_date_is_observation_date": false,
+        "location_observation_date": "Not established; edit and retrieval times are not site-observation dates",
+        "data_source": "Original Arabic concept note; source paragraph and prior XML audit; recorded OSM discovery responses; actual OSM object API",
+        "coordinate_source_url": "https://api.openstreetmap.org/api/0.6/way/1359632096/full.json",
+        "coordinate_source_sha256": "c85bad5089b31911d1b4b6bd73d24c823519ac34954f670bd8d6be3d98c49273",
+        "osm_url": "https://www.openstreetmap.org/way/1359632096",
+        "corroborating_publication_urls": "",
+        "supplied_assessment_context": true,
+        "confidence_level": "Moderate for matched source feature only; independent positional confidence unassessed",
+        "source_name_interpretation_confidence": "Medium; locality discrepancy unresolved",
+        "coordinate_precision": "No point supplied",
+        "entrance_verified": false,
+        "routing_eligible": false,
+        "current_operation_verified": false,
+        "authoritative_release_approved": false,
+        "publication_clearance": "Internal working inventory; confidential concept-note scope requires clearance",
+        "ambiguity_notes": "Source spelling retained; locality/site extent unresolved despite prior benchmark profile",
+        "validation_notes": "Named marketplace polygon agrees with supplied assessment market alias; source OSM way/nodes checked against returned geometry. Retain polygon, not Nominatim centre. Locality derived only if entire polygon is contained in one adopted COD locality.",
+        "review_date": "2026-10-27"
+      }
+    }
+  ]
+}

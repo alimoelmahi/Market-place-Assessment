@@ -1,0 +1,44 @@
+{
+  "name": "khartoum-market-intelligence-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:build": "node scripts/build-evidence.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run data:build && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test scripts/evidence.test.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^9.1.0",
+    "@deck.gl/layers": "^9.1.0",
+    "@deck.gl/mapbox": "^9.1.0",
+    "@fontsource/noto-sans": "^5.2.0",
+    "@fontsource/noto-sans-arabic": "^5.2.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@tanstack/react-query": "^5.90.0",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^0.468.0",
+    "maplibre-gl": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0",
+    "tailwindcss": "^4.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/d3": "^7.4.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "csv-parse": "^6.1.0",
+    "typescript": "~5.9.0",
+    "vite": "^7.0.0"
+  }
+}

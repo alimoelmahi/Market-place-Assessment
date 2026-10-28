@@ -1,0 +1,861 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5298537,
+          15.6012682
+        ]
+      },
+      "properties": {
+        "market_id": "KHM001",
+        "query": "السوق العربي, الخرطوم, السودان",
+        "osm_object": "node/9327485325",
+        "source_name": "فندق السواقي السوق العربي",
+        "source_category": "tourism",
+        "source_type": "hostel",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "No unambiguous market object returned. Hostel and taxi facility rejected. Published coarse Al Arabi reference coordinate is not adopted as a validated market point.",
+        "source_url": "https://www.openstreetmap.org/node/9327485325",
+        "input_file": "raw/nominatim_f4b75909277af57c.json",
+        "input_sha256": "9a0068974a2f281891cf945dd9a8cd9a36e2b14981d598fd86cfaaffaf0d03cb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4724266,
+          15.7253392
+        ]
+      },
+      "properties": {
+        "market_id": "KHM001",
+        "query": "السوق العربي, الخرطوم, السودان",
+        "osm_object": "node/12551367406",
+        "source_name": "موقف مواصلات السوق العربي",
+        "source_category": "amenity",
+        "source_type": "taxi",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "No unambiguous market object returned. Hostel and taxi facility rejected. Published coarse Al Arabi reference coordinate is not adopted as a validated market point.",
+        "source_url": "https://www.openstreetmap.org/node/12551367406",
+        "input_file": "raw/nominatim_f4b75909277af57c.json",
+        "input_sha256": "9a0068974a2f281891cf945dd9a8cd9a36e2b14981d598fd86cfaaffaf0d03cb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5557247,
+              15.5317319
+            ],
+            [
+              32.5564305,
+              15.5292894
+            ],
+            [
+              32.5580623,
+              15.5295843
+            ],
+            [
+              32.5577174,
+              15.5320997
+            ],
+            [
+              32.5557247,
+              15.5317319
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "market_id": "KHM002",
+        "query": "السوق المركزي, الخرطوم, السودان",
+        "osm_object": "way/108706657",
+        "source_name": "السوق المركزي",
+        "source_category": "landuse",
+        "source_type": "retail",
+        "geometry_type": "Polygon",
+        "retained_market_geometry": false,
+        "decision": "Named retail-area polygon way/108706657 is a candidate, not independently established market footprint. Viewpoint, apartment and greengrocer points rejected as market coordinates.",
+        "source_url": "https://www.openstreetmap.org/way/108706657",
+        "input_file": "raw/nominatim_0066ec02c9ad3487.json",
+        "input_sha256": "cf5f9d1852fcac81fb47980b660d28df4cfa8d017117d0bc959a84ba4eebcd9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5574842,
+          15.5317239
+        ]
+      },
+      "properties": {
+        "market_id": "KHM002",
+        "query": "السوق المركزي, الخرطوم, السودان",
+        "osm_object": "node/4234691689",
+        "source_name": "السوق المركزي",
+        "source_category": "tourism",
+        "source_type": "viewpoint",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Named retail-area polygon way/108706657 is a candidate, not independently established market footprint. Viewpoint, apartment and greengrocer points rejected as market coordinates.",
+        "source_url": "https://www.openstreetmap.org/node/4234691689",
+        "input_file": "raw/nominatim_0066ec02c9ad3487.json",
+        "input_sha256": "cf5f9d1852fcac81fb47980b660d28df4cfa8d017117d0bc959a84ba4eebcd9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5574656,
+          15.530345
+        ]
+      },
+      "properties": {
+        "market_id": "KHM002",
+        "query": "السوق المركزي, الخرطوم, السودان",
+        "osm_object": "node/7233921585",
+        "source_name": "السوق",
+        "source_category": "tourism",
+        "source_type": "apartment",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Named retail-area polygon way/108706657 is a candidate, not independently established market footprint. Viewpoint, apartment and greengrocer points rejected as market coordinates.",
+        "source_url": "https://www.openstreetmap.org/node/7233921585",
+        "input_file": "raw/nominatim_0066ec02c9ad3487.json",
+        "input_sha256": "cf5f9d1852fcac81fb47980b660d28df4cfa8d017117d0bc959a84ba4eebcd9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5574131,
+          15.5303551
+        ]
+      },
+      "properties": {
+        "market_id": "KHM002",
+        "query": "السوق المركزي, الخرطوم, السودان",
+        "osm_object": "node/6055074491",
+        "source_name": "Central Market",
+        "source_category": "shop",
+        "source_type": "greengrocer",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Named retail-area polygon way/108706657 is a candidate, not independently established market footprint. Viewpoint, apartment and greengrocer points rejected as market coordinates.",
+        "source_url": "https://www.openstreetmap.org/node/6055074491",
+        "input_file": "raw/nominatim_0066ec02c9ad3487.json",
+        "input_sha256": "cf5f9d1852fcac81fb47980b660d28df4cfa8d017117d0bc959a84ba4eebcd9b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5314156,
+              15.5612419
+            ],
+            [
+              32.5317977,
+              15.5588845
+            ],
+            [
+              32.5319891,
+              15.5577038
+            ],
+            [
+              32.532055,
+              15.5572972
+            ],
+            [
+              32.5321716,
+              15.5565777
+            ],
+            [
+              32.5351334,
+              15.5570578
+            ],
+            [
+              32.5368525,
+              15.5573364
+            ],
+            [
+              32.5369791,
+              15.5573569
+            ],
+            [
+              32.537245,
+              15.5574
+            ],
+            [
+              32.5374387,
+              15.5574314
+            ],
+            [
+              32.5373997,
+              15.5576725
+            ],
+            [
+              32.5373228,
+              15.5581467
+            ],
+            [
+              32.5372702,
+              15.5584712
+            ],
+            [
+              32.5372476,
+              15.5585773
+            ],
+            [
+              32.5372484,
+              15.5586059
+            ],
+            [
+              32.5370229,
+              15.5599968
+            ],
+            [
+              32.5367763,
+              15.5615184
+            ],
+            [
+              32.5367244,
+              15.5618389
+            ],
+            [
+              32.5366828,
+              15.5620956
+            ],
+            [
+              32.5314156,
+              15.5612419
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "market_id": "KHM003",
+        "query": "السوق الشعبي, الخرطوم, السودان",
+        "osm_object": "way/178258112",
+        "source_name": "السوق الشعبي الخرطوم",
+        "source_category": "place",
+        "source_type": "neighbourhood",
+        "geometry_type": "Polygon",
+        "retained_market_geometry": false,
+        "decision": "Named neighbourhood polygon way/178258112 retained as candidate context only. Neighbourhood centre and supermarket point do not validate the market location.",
+        "source_url": "https://www.openstreetmap.org/way/178258112",
+        "input_file": "raw/nominatim_0acdebf02a806b75.json",
+        "input_sha256": "639da6a8778e8653acc5b30cbca9e24a137221962fb26dbffa53bce8ebb6161c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5370759,
+          15.5585145
+        ]
+      },
+      "properties": {
+        "market_id": "KHM003",
+        "query": "السوق الشعبي, الخرطوم, السودان",
+        "osm_object": "node/5436682123",
+        "source_name": "السوق الشعبي",
+        "source_category": "shop",
+        "source_type": "supermarket",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Named neighbourhood polygon way/178258112 retained as candidate context only. Neighbourhood centre and supermarket point do not validate the market location.",
+        "source_url": "https://www.openstreetmap.org/node/5436682123",
+        "input_file": "raw/nominatim_0acdebf02a806b75.json",
+        "input_sha256": "639da6a8778e8653acc5b30cbca9e24a137221962fb26dbffa53bce8ebb6161c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4830627,
+          15.4678125
+        ]
+      },
+      "properties": {
+        "market_id": "KHM004",
+        "query": "سوق الكلاكلة اللفة, السودان",
+        "osm_object": "node/7066645104",
+        "source_name": "سوق الكلاكلة اللفة",
+        "source_category": "amenity",
+        "source_type": "marketplace",
+        "geometry_type": "Point",
+        "retained_market_geometry": true,
+        "decision": "Exact distinctive market name and marketplace tag; actual OSM node coordinates checked against source API. Source-verified inventory point only, not a surveyed position, market entrance or current operation finding.",
+        "source_url": "https://www.openstreetmap.org/node/7066645104",
+        "input_file": "raw/nominatim_14d20e7996570395.json",
+        "input_sha256": "dd3e8754c6c00332e579ca3a7945ea3c73356a5d32ad51b86c8436f4d283f8d0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.568063,
+          15.5548146
+        ]
+      },
+      "properties": {
+        "market_id": "KHM006",
+        "query": "سوق الخيمة, الخرطوم, السودان",
+        "osm_object": "node/4548460093",
+        "source_name": "سوق الخيمة",
+        "source_category": "shop",
+        "source_type": "department_store",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Same-name node/4548460093 exists but is tagged shop=department_store. It is not accepted as the concept-note market without corroboration of site and role.",
+        "source_url": "https://www.openstreetmap.org/node/4548460093",
+        "input_file": "raw/nominatim_ddb698d8b4a2845c.json",
+        "input_sha256": "557ee0c38311c38ec54fdeb515bc349fff147a412c9f02d0b844aff919fa600e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4898852,
+          15.6273697
+        ]
+      },
+      "properties": {
+        "market_id": "KHM008",
+        "query": "سوق الموردة, السودان",
+        "osm_object": "node/3684865700",
+        "source_name": "اسماك الموردة",
+        "source_category": "amenity",
+        "source_type": "restaurant",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Restaurants and differently named markets rejected. Dabanga supports El Morada neighbourhood market identity historically, not an exact fish-market point or footprint.",
+        "source_url": "https://www.openstreetmap.org/node/3684865700",
+        "input_file": "raw/nominatim_9d0de9452ddff008.json",
+        "input_sha256": "0dd333fcc59554fc054b14a2858a7c6b471a630fc4c968461354a136d275c9da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4809888,
+              15.6497235
+            ],
+            [
+              32.4815015,
+              15.6482371
+            ],
+            [
+              32.4815559,
+              15.6468818
+            ],
+            [
+              32.4815965,
+              15.6450837
+            ],
+            [
+              32.4818514,
+              15.6449595
+            ],
+            [
+              32.4821029,
+              15.6448082
+            ],
+            [
+              32.4838755,
+              15.6448082
+            ],
+            [
+              32.4849951,
+              15.6428019
+            ],
+            [
+              32.4859967,
+              15.6409966
+            ],
+            [
+              32.4884143,
+              15.6409513
+            ],
+            [
+              32.4898915,
+              15.6408005
+            ],
+            [
+              32.4904011,
+              15.6463451
+            ],
+            [
+              32.4920126,
+              15.6479684
+            ],
+            [
+              32.4921236,
+              15.6487377
+            ],
+            [
+              32.492205,
+              15.6493011
+            ],
+            [
+              32.4922438,
+              15.64957
+            ],
+            [
+              32.4922937,
+              15.6499157
+            ],
+            [
+              32.4924945,
+              15.6516792
+            ],
+            [
+              32.491779,
+              15.6516631
+            ],
+            [
+              32.4891343,
+              15.6507212
+            ],
+            [
+              32.4891283,
+              15.6495282
+            ],
+            [
+              32.4891343,
+              15.6477799
+            ],
+            [
+              32.4879937,
+              15.6478083
+            ],
+            [
+              32.4879213,
+              15.6478071
+            ],
+            [
+              32.487842,
+              15.6478078
+            ],
+            [
+              32.4876645,
+              15.6478069
+            ],
+            [
+              32.4865829,
+              15.6478159
+            ],
+            [
+              32.485336,
+              15.6481609
+            ],
+            [
+              32.4844121,
+              15.6482169
+            ],
+            [
+              32.4841172,
+              15.6493957
+            ],
+            [
+              32.4842124,
+              15.6498525
+            ],
+            [
+              32.4828615,
+              15.6497975
+            ],
+            [
+              32.4809888,
+              15.6497235
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "market_id": "KHM008",
+        "query": "سوق الموردة, السودان",
+        "osm_object": "way/178148318",
+        "source_name": "سوق امدرمان",
+        "source_category": "amenity",
+        "source_type": "marketplace",
+        "geometry_type": "Polygon",
+        "retained_market_geometry": false,
+        "decision": "Restaurants and differently named markets rejected. Dabanga supports El Morada neighbourhood market identity historically, not an exact fish-market point or footprint.",
+        "source_url": "https://www.openstreetmap.org/way/178148318",
+        "input_file": "raw/nominatim_9d0de9452ddff008.json",
+        "input_sha256": "0dd333fcc59554fc054b14a2858a7c6b471a630fc4c968461354a136d275c9da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4900564,
+          15.6275625
+        ]
+      },
+      "properties": {
+        "market_id": "KHM008",
+        "query": "سوق الموردة, السودان",
+        "osm_object": "node/4617491289",
+        "source_name": "مطعم البوابة الذهبية",
+        "source_category": "amenity",
+        "source_type": "restaurant",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Restaurants and differently named markets rejected. Dabanga supports El Morada neighbourhood market identity historically, not an exact fish-market point or footprint.",
+        "source_url": "https://www.openstreetmap.org/node/4617491289",
+        "input_file": "raw/nominatim_9d0de9452ddff008.json",
+        "input_sha256": "0dd333fcc59554fc054b14a2858a7c6b471a630fc4c968461354a136d275c9da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.495094,
+          15.6445515
+        ]
+      },
+      "properties": {
+        "market_id": "KHM008",
+        "query": "سوق الموردة, السودان",
+        "osm_object": "node/8006740507",
+        "source_name": "سوق الملازمين",
+        "source_category": "amenity",
+        "source_type": "marketplace",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Restaurants and differently named markets rejected. Dabanga supports El Morada neighbourhood market identity historically, not an exact fish-market point or footprint.",
+        "source_url": "https://www.openstreetmap.org/node/8006740507",
+        "input_file": "raw/nominatim_9d0de9452ddff008.json",
+        "input_sha256": "0dd333fcc59554fc054b14a2858a7c6b471a630fc4c968461354a136d275c9da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4707217,
+          15.6082304
+        ]
+      },
+      "properties": {
+        "market_id": "KHM008",
+        "query": "سوق الموردة, السودان",
+        "osm_object": "node/49223556",
+        "source_name": "سوق المهندسين",
+        "source_category": "shop",
+        "source_type": "supermarket",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Restaurants and differently named markets rejected. Dabanga supports El Morada neighbourhood market identity historically, not an exact fish-market point or footprint.",
+        "source_url": "https://www.openstreetmap.org/node/49223556",
+        "input_file": "raw/nominatim_9d0de9452ddff008.json",
+        "input_sha256": "0dd333fcc59554fc054b14a2858a7c6b471a630fc4c968461354a136d275c9da"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4233257,
+          15.6478994
+        ]
+      },
+      "properties": {
+        "market_id": "KHM009",
+        "query": "Souq Libya, Sudan",
+        "osm_object": "node/5320410421",
+        "source_name": "سوق ليبيا",
+        "source_category": "amenity",
+        "source_type": "marketplace",
+        "geometry_type": "Point",
+        "retained_market_geometry": true,
+        "decision": "Arabic market name and English alias agree with concept entry; actual marketplace node coordinates checked against source API. Dabanga corroborates the market in western Omdurman, not the precise point. Not an entrance or current-status finding.",
+        "source_url": "https://www.openstreetmap.org/node/5320410421",
+        "input_file": "raw/nominatim_souq_libya_sudan.json",
+        "input_sha256": "b675d16f562217633322886dc9025a05829cd8cc71e4b747c6a12776cb99eb9d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.534687,
+          15.6208124
+        ]
+      },
+      "properties": {
+        "market_id": "KHM010",
+        "query": "بحري سعد بحري, السودان",
+        "osm_object": "node/6877263372",
+        "source_name": "سودابوست بريد السودان - بحري",
+        "source_category": "amenity",
+        "source_type": "post_office",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Returned post office, shops and educational institutions rejected. Malformed original name retained; no substitution of Saad Gishra or another Bahri market.",
+        "source_url": "https://www.openstreetmap.org/node/6877263372",
+        "input_file": "raw/nominatim_ac698d2cd8c54836.json",
+        "input_sha256": "6f630551ba802bf6670a5f3fafbbbb472195a38e7984f22884f16ffb551ddb76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5239486,
+          15.632848
+        ]
+      },
+      "properties": {
+        "market_id": "KHM010",
+        "query": "بحري سعد بحري, السودان",
+        "osm_object": "node/4305586789",
+        "source_name": "بيتنا السودان",
+        "source_category": "shop",
+        "source_type": "sports",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Returned post office, shops and educational institutions rejected. Malformed original name retained; no substitution of Saad Gishra or another Bahri market.",
+        "source_url": "https://www.openstreetmap.org/node/4305586789",
+        "input_file": "raw/nominatim_ac698d2cd8c54836.json",
+        "input_sha256": "6f630551ba802bf6670a5f3fafbbbb472195a38e7984f22884f16ffb551ddb76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5248108,
+          15.6416874
+        ]
+      },
+      "properties": {
+        "market_id": "KHM010",
+        "query": "بحري سعد بحري, السودان",
+        "osm_object": "node/6949038204",
+        "source_name": "نيكاي السودان - بحري",
+        "source_category": "shop",
+        "source_type": "supermarket",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Returned post office, shops and educational institutions rejected. Malformed original name retained; no substitution of Saad Gishra or another Bahri market.",
+        "source_url": "https://www.openstreetmap.org/node/6949038204",
+        "input_file": "raw/nominatim_ac698d2cd8c54836.json",
+        "input_sha256": "6f630551ba802bf6670a5f3fafbbbb472195a38e7984f22884f16ffb551ddb76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5926064,
+          15.6197559
+        ]
+      },
+      "properties": {
+        "market_id": "KHM010",
+        "query": "بحري سعد بحري, السودان",
+        "osm_object": "node/4278183690",
+        "source_name": "جامعة السودان للعلوم والتكنولوجيا - مجمع كليتي الطب البيطري وعلوم وتكنولوجيا الانتاج الحيواني",
+        "source_category": "amenity",
+        "source_type": "college",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Returned post office, shops and educational institutions rejected. Malformed original name retained; no substitution of Saad Gishra or another Bahri market.",
+        "source_url": "https://www.openstreetmap.org/node/4278183690",
+        "input_file": "raw/nominatim_ac698d2cd8c54836.json",
+        "input_sha256": "6f630551ba802bf6670a5f3fafbbbb472195a38e7984f22884f16ffb551ddb76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5918121,
+          15.6201878
+        ]
+      },
+      "properties": {
+        "market_id": "KHM010",
+        "query": "بحري سعد بحري, السودان",
+        "osm_object": "node/6979432577",
+        "source_name": "جامعة السودان - كلية الطب البيطري",
+        "source_category": "amenity",
+        "source_type": "university",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Returned post office, shops and educational institutions rejected. Malformed original name retained; no substitution of Saad Gishra or another Bahri market.",
+        "source_url": "https://www.openstreetmap.org/node/6979432577",
+        "input_file": "raw/nominatim_ac698d2cd8c54836.json",
+        "input_sha256": "6f630551ba802bf6670a5f3fafbbbb472195a38e7984f22884f16ffb551ddb76"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5363516,
+          15.6722963
+        ]
+      },
+      "properties": {
+        "market_id": "KHM011",
+        "query": "السوق المركزي, بحري, السودان",
+        "osm_object": "node/4617489993",
+        "source_name": "السوق المركزي بحري",
+        "source_category": "tourism",
+        "source_type": "hotel",
+        "geometry_type": "Point",
+        "retained_market_geometry": false,
+        "decision": "Same-name node/4617489993 is tagged tourism=hotel and rejected as a market coordinate. Keep separate from Khartoum central-market entry.",
+        "source_url": "https://www.openstreetmap.org/node/4617489993",
+        "input_file": "raw/nominatim_4f8a5616f99b1776.json",
+        "input_sha256": "36d38f7e647c596f724f06db6ae4db9a25ece508970e3d91a9ed278449eddcb8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.5875044,
+              15.6177833
+            ],
+            [
+              32.5878831,
+              15.617013
+            ],
+            [
+              32.5897731,
+              15.6178685
+            ],
+            [
+              32.5902544,
+              15.618056
+            ],
+            [
+              32.5908419,
+              15.6168868
+            ],
+            [
+              32.5919603,
+              15.6172277
+            ],
+            [
+              32.5913551,
+              15.6186456
+            ],
+            [
+              32.5915391,
+              15.6188297
+            ],
+            [
+              32.5911781,
+              15.6191706
+            ],
+            [
+              32.5909056,
+              15.6193444
+            ],
+            [
+              32.5907074,
+              15.6194466
+            ],
+            [
+              32.5902686,
+              15.6194535
+            ],
+            [
+              32.5899819,
+              15.6194569
+            ],
+            [
+              32.588453,
+              15.6193785
+            ],
+            [
+              32.5884565,
+              15.6184445
+            ],
+            [
+              32.5879185,
+              15.6183764
+            ],
+            [
+              32.5878973,
+              15.6179673
+            ],
+            [
+              32.5875044,
+              15.6177833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "market_id": "KHM013",
+        "query": "سوق حلة كوكو, السودان",
+        "osm_object": "way/1359632096",
+        "source_name": "سوق حلة كوكو",
+        "source_category": "amenity",
+        "source_type": "marketplace",
+        "geometry_type": "Polygon",
+        "retained_market_geometry": true,
+        "decision": "Named marketplace polygon agrees with supplied assessment market alias; source OSM way/nodes checked against returned geometry. Retain polygon, not Nominatim centre. Locality derived only if entire polygon is contained in one adopted COD locality.",
+        "source_url": "https://www.openstreetmap.org/way/1359632096",
+        "input_file": "raw/nominatim_8ecf2cf34e90419e.json",
+        "input_sha256": "ceb029522b28cfbdf8eb0ca5cdcd188245b22f243b42464ee7345a74150773da"
+      }
+    }
+  ]
+}

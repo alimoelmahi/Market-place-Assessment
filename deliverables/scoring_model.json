@@ -1,0 +1,46 @@
+{
+  "model_id": "khartoum_secondary_readiness_v1",
+  "status": "suspended_pending_real_evidence_and_validated_value_functions",
+  "assessment_policy": "Real-world secondary evidence only. Weights are a declared policy preference, not observations. Earlier proposed anchors and scenario parameters are not validated empirical inputs.",
+  "ranking_enabled": false,
+  "analysis_cutoff": "2026-10-27",
+  "score_scale": [0, 100],
+  "purpose": "Conditional opportunity and readiness screening; not need or safety certification",
+  "weights": {
+    "P": 0.20,
+    "A": 0.15,
+    "F": 0.20,
+    "C": 0.15,
+    "E": 0.15,
+    "R": 0.15
+  },
+  "subweights": {
+    "F": {"availability": 0.30, "visible_physical_readiness": 0.30, "documented_operation": 0.25, "supporting_services": 0.15},
+    "E": {"documented_hierarchy": 0.40, "network_betweenness": 0.30, "documented_function_diversity": 0.30},
+    "R": {"land_permission": 0.30, "engineering_preparation": 0.25, "operations_maintenance": 0.25, "environmental_social_feasibility": 0.20}
+  },
+  "anchors": {
+    "status": "Provisional analytical assumptions requiring approval before ranking",
+    "P": {"lower_residents": 1000, "upper_residents": 100000, "transform": "clipped_log_ratio", "catchment_minutes": 60, "allocation": "unique_nearest_eligible_market"},
+    "A": {"neighborhood_km": 5, "good_minutes": 15, "poor_minutes": 90, "minimum_reachable_fraction": 0.5, "transform": "inverse_clipped_linear_times_reachable_fraction"},
+    "C": {"buffer_km": 5, "window_days": 180, "half_life_days": 90, "upper_weighted_events": 20, "transform": "inverse_clipped_log1p", "categories": ["Battles", "Explosions/Remote violence", "Violence against civilians"], "precision": "reviewed_adequate_not_assumed_from_point_geometry"},
+    "E": {"betweenness_upper_anchor": 0.10, "function_points_each": 25, "hierarchy_scores": {"neighborhood": 25, "district": 50, "locality": 75, "metropolitan_regional": 100}},
+    "F": {"minimum_basket_completeness": 0.80, "minimum_structures_observable": 0.80, "operation_scores": {"documented_closed": 0, "documented_partial": 50, "documented_open": 100}, "supporting_services": ["water", "sanitation_waste", "electricity_or_reliable_alternative", "loading_storage"]},
+    "R": {"maturity_levels": [0, 25, 50, 75, 100], "unknown_is_null": true}
+  },
+  "freshness_alert_days": {"security_and_road_status": 30, "market_status_prices": 90, "current_condition_imagery": 180},
+  "missing_data": {"renormalize_available_weights": false, "unknown_lower_bound": 0, "unknown_upper_bound": 100, "minimum_overall_provisional_coverage": 0.80, "minimum_each_criterion_provisional_coverage": 0.50, "minimum_F_R_provisional_coverage": 0.75, "point_rank_requires_complete_model": true, "confidence_multiplies_score": false},
+  "investment_gates": ["identity_scope", "security_access_explosive_remnants", "tenure_permission", "technical_environmental_social", "economic_additionality_operations_maintenance"],
+  "gate_rule": "Any fail or unknown prevents an investment-ready rank; no fabricated pass",
+  "scenarios": {
+    "population": ["low", "central", "high"],
+    "network": ["reference", "wet_season", "selected_bridge_closed"],
+    "walking_kmh": [2.5, 4.0, 5.0],
+    "weight_relative_perturbation": 0.20,
+    "anchor_relative_perturbation": 0.20,
+    "optional_robustness_draws": 1000,
+    "optional_random_seed": 20261027
+  },
+  "synthetic_tests": [],
+  "real_market_scores": []
+}

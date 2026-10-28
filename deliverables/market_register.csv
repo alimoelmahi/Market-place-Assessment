@@ -1,0 +1,15 @@
+market_id,source_id,source_entry,source_name_ar,working_name_en,source_location,geometry_status,latitude,longitude,admin2_pcode,scope_status,issue
+KHM001,REF03,1,سوق العربي الخرطوم,Al Arabi Market,Khartoum,unverified,,,,provisional,Confirm point and boundary
+KHM002,REF03,2,السوق المركزي الخرطوم,Central Market Khartoum,Khartoum,unverified,,,,provisional,Distinguish from Bahri central market
+KHM003,REF03,3,السوق الشعبي الخرطوم,Al Shaabi Market Khartoum,Khartoum,unverified,,,,provisional,Confirm exact market site
+KHM004,REF03,4,سوق الكلاكلة اللفة الخرطوم,Al Kalakla Al Laffa Market,Khartoum,unverified,,,,provisional,Verify locality with adopted boundaries
+KHM005,REF03,5,سوق المحالي الخرطوم,Al Mahali Market,Khartoum,unverified,,,,provisional,Ambiguous original spelling
+KHM006,REF03,6,سوق الخيمة الخرطوم,Al Khaima Market,Khartoum,unverified,,,,provisional,Exact site unresolved
+KHM007,REF03,7,سوق أم درمان للمواشي أم درمان سوق الإبل (سوق المواشي),Omdurman Livestock Camel Market,Omdurman,unverified,,,,provisional,Combined source line retained as one entry
+KHM008,REF03,8,أم درمان سوق الموردة (سوق السمك),Al Mawrada Fish Market,Omdurman,unverified,,,,provisional,Confirm market footprint
+KHM009,REF03,9,أم درمان سوق ليبيا,Libya Market,Omdurman,unverified,,,,provisional,Verify locality with adopted boundaries
+KHM010,REF03,10,بحري سعد بحري (الخرطوم بحري),Bahri Saad Bahri,Khartoum Bahri,unverified,,,,provisional,Malformed source name requires clarification
+KHM011,REF03,11,السوق المركزي(الخرطوم بحري),Central Market Bahri,Khartoum Bahri,unverified,,,,provisional,Separate from KHM002
+KHM012,REF03,12,أم ضوابان(الخرطوم بحري),Um Dawwan Ban,Khartoum Bahri,unverified,,,,provisional,REF02 uses Sharg El Neel and Umdawan Ban
+KHM013,REF03,13,الحلة كوكو(الخرطوم بحري),Hilat Kuku,Khartoum Bahri,unverified,,,,provisional,Resolve Bahri versus Sharg El Neel label
+KHM014,REF03,14,سوق ستة(الخرطوم بحري),Souq Sitta Soug 6,Khartoum Bahri,unverified,,,,provisional,Nonunique name and east west sub-sites
